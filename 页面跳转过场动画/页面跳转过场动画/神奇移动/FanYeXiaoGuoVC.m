@@ -27,6 +27,14 @@
     
     self.navigationController.delegate = self;
     
+    _interactiveTransitionPush = [XWInteractiveTransition interactiveTransitionWithTransitionType:XWInteractiveTransitionTypePush GestureDirection:XWInteractiveTransitionGestureDirectionLeft];
+    typeof(self)weakSelf = self;
+    _interactiveTransitionPush.pushConifg = ^(){
+        [weakSelf pushClick:nil];
+    };
+    //此处传入self.navigationController， 不传入self，因为self.view要形变，否则手势百分比算不准确；
+    [_interactiveTransitionPush addPanGestureForViewController:self];
+    
     
 }
 
@@ -38,7 +46,7 @@
 
 - (NSTimeInterval)transitionDuration:(id<UIViewControllerContextTransitioning>)transitionContext {
     
-    return 2;
+    return 1;
 }
 
 /**
@@ -69,9 +77,6 @@
                                                            toViewController:(UIViewController *)toVC {
     
     self.navigationOperation = operation;
-    
-    
-    
     
     return self;
 }

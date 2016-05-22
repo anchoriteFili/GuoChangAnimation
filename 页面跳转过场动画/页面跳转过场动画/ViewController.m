@@ -7,6 +7,10 @@
 //
 
 #import "ViewController.h"
+#import "ShenQiYiDongVC.h"
+#import "TanXingPoPVC.h"
+#import "FanYeXiaoGuoVC.h"
+#import "XiaoYuanDianVC.h"
 
 @interface ViewController ()
 
@@ -34,26 +38,46 @@
 #pragma mark 神奇移动
 - (IBAction)shenQiYiDong:(UIButton *)sender {
     
-    [self.navigationController pushViewController:[[NSClassFromString(@"ShenQiYiDongVC") alloc] init] animated:YES];
+    UIStoryboard *storyBoard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+    ShenQiYiDongVC *viewController = [storyBoard instantiateViewControllerWithIdentifier:@"ShenQiYiDongVC"];
+    
+    [self.navigationController pushViewController:viewController animated:YES];
+    
+//    [self.navigationController pushViewController:[[NSClassFromString(@"ShenQiYiDongVC") alloc] init] animated:YES];
     
 }
 
 #pragma mark 弹性pop
 - (IBAction)tanXingPOP:(UIButton *)sender {
     
-    [self.navigationController pushViewController:[[NSClassFromString(@"TanXingPoPVC") alloc] init] animated:YES];
+    UIStoryboard *storyBoard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+    ShenQiYiDongVC *viewController = [storyBoard instantiateViewControllerWithIdentifier:@"ShenQiYiDongVC"];
+    
+    [self.navigationController pushViewController:viewController animated:YES];
+    
+//    [self.navigationController pushViewController:[[NSClassFromString(@"TanXingPoPVC") alloc] init] animated:YES];
 }
 
 #pragma mark 翻页效果
 - (IBAction)fanYeXiaoGuo:(UIButton *)sender {
     
-    [self.navigationController pushViewController:[[NSClassFromString(@"FanYeXiaoGuoVC") alloc] init] animated:YES];
+    UIStoryboard *storyBoard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+    FanYeXiaoGuoVC *viewController = [storyBoard instantiateViewControllerWithIdentifier:@"FanYeXiaoGuoVC"];
+    
+    [self.navigationController pushViewController:viewController animated:YES];
+    
+//    [self.navigationController pushViewController:[[NSClassFromString(@"FanYeXiaoGuoVC") alloc] init] animated:YES];
 }
 
 #pragma mark 小圆点
 - (IBAction)xiaoYuanDian:(UIButton *)sender {
     
-    [self.navigationController pushViewController:[[NSClassFromString(@"XiaoYuanDianVC") alloc] init] animated:YES];
+    UIStoryboard *storyBoard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+    XiaoYuanDianVC *viewController = [storyBoard instantiateViewControllerWithIdentifier:@"XiaoYuanDianVC"];
+    
+    [self.navigationController pushViewController:viewController animated:YES];
+    
+//    [self.navigationController pushViewController:[[NSClassFromString(@"XiaoYuanDianVC") alloc] init] animated:YES];
 }
 
 

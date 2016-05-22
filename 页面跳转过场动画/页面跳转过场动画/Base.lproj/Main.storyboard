@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -87,7 +88,7 @@
         <!--Shen Qi Yi DongVC-->
         <scene sceneID="WHC-pr-dvh">
             <objects>
-                <viewController id="fpX-wn-aDS" customClass="ShenQiYiDongVC" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ShenQiYiDongVC" id="fpX-wn-aDS" customClass="ShenQiYiDongVC" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="6MA-F9-Ihp"/>
                         <viewControllerLayoutGuide type="bottom" id="CSA-G0-fNi"/>
@@ -105,7 +106,7 @@
         <!--Tan Xing PoPVC-->
         <scene sceneID="JLQ-f5-kOR">
             <objects>
-                <viewController id="E9u-DX-Mmk" customClass="TanXingPoPVC" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="TanXingPoPVC" id="E9u-DX-Mmk" customClass="TanXingPoPVC" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="QWT-Rj-a6h"/>
                         <viewControllerLayoutGuide type="bottom" id="lXn-Vq-Ib4"/>
@@ -123,7 +124,7 @@
         <!--Fan Ye Xiao GuoVC-->
         <scene sceneID="fWU-Jg-xGO">
             <objects>
-                <viewController id="Mit-UJ-1cH" customClass="FanYeXiaoGuoVC" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="FanYeXiaoGuoVC" id="Mit-UJ-1cH" customClass="FanYeXiaoGuoVC" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="oSc-7m-ogo"/>
                         <viewControllerLayoutGuide type="bottom" id="UcD-0a-MTK"/>
@@ -131,7 +132,34 @@
                     <view key="view" contentMode="scaleToFill" id="K3G-nQ-4Fa">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pic2" translatesAutoresizingMaskIntoConstraints="NO" id="FD7-PK-9Ho">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="agj-Yx-by7">
+                                <rect key="frame" x="223" y="285" width="154" height="30"/>
+                                <color key="backgroundColor" red="0.67581824633359577" green="0.43276252792234982" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="154" id="VcA-4s-udC"/>
+                                    <constraint firstAttribute="height" constant="30" id="dJR-T2-nqd"/>
+                                </constraints>
+                                <state key="normal" title="翻页效果">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="pushClick:" destination="Mit-UJ-1cH" eventType="touchUpInside" id="5AK-o9-tXF"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" red="0.41960787770000002" green="0.65882354970000001" blue="0.15294118230000001" alpha="1" colorSpace="deviceRGB"/>
+                        <constraints>
+                            <constraint firstItem="FD7-PK-9Ho" firstAttribute="leading" secondItem="K3G-nQ-4Fa" secondAttribute="leadingMargin" constant="-20" id="4iv-oI-Bkq"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="FD7-PK-9Ho" secondAttribute="trailing" constant="-20" id="8BO-pk-4AA"/>
+                            <constraint firstItem="agj-Yx-by7" firstAttribute="centerX" secondItem="K3G-nQ-4Fa" secondAttribute="centerX" id="G5G-fL-tmv"/>
+                            <constraint firstItem="FD7-PK-9Ho" firstAttribute="top" secondItem="oSc-7m-ogo" secondAttribute="bottom" constant="-20" id="eH3-4e-CHh"/>
+                            <constraint firstItem="agj-Yx-by7" firstAttribute="centerY" secondItem="K3G-nQ-4Fa" secondAttribute="centerY" id="tRh-hw-DhM"/>
+                            <constraint firstItem="UcD-0a-MTK" firstAttribute="top" secondItem="FD7-PK-9Ho" secondAttribute="bottom" id="xhr-CQ-GaN"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bR8-D1-Vqy" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -141,7 +169,7 @@
         <!--Xiao Yuan DianVC-->
         <scene sceneID="ZkB-iQ-Ckz">
             <objects>
-                <viewController id="6D2-4h-ZnV" customClass="XiaoYuanDianVC" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="XiaoYuanDianVC" id="6D2-4h-ZnV" customClass="XiaoYuanDianVC" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="8t8-SZ-aNE"/>
                         <viewControllerLayoutGuide type="bottom" id="CvK-dt-z3o"/>
@@ -175,4 +203,7 @@
             <point key="canvasLocation" x="66" y="396"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="pic2" width="1200" height="2130"/>
+    </resources>
 </document>

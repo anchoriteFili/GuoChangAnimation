@@ -7,8 +7,10 @@
 //
 
 #import "ShenQiYiDongVC.h"
+#import "XWInteractiveTransition.h"
 
 @interface ShenQiYiDongVC ()
+@property (nonatomic, strong) XWInteractiveTransition *interactiveTransitionPush;
 
 @end
 
@@ -18,10 +20,25 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    self.view.backgroundColor = [UIColor yellowColor];
     
     
+}
+
+/**
+ *  如何执行过渡动画
+ */
+- (void)animateTransition:(id<UIViewControllerContextTransitioning>)transitionContext{
     
+    
+//    switch (_type) {
+//        case XWPageCoverTransitionTypePush:
+//            [self doPushAnimation:transitionContext];
+//            break;
+//            
+//        case XWPageCoverTransitionTypePop:
+//            [self doPopAnimation:transitionContext];
+//            break;
+//    }
 }
 
 - (void)didReceiveMemoryWarning {

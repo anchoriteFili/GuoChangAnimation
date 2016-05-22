@@ -1,0 +1,572 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F91908BA1CF16AEF006FD8D2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F91908B91CF16AEF006FD8D2 /* main.m */; };
+		F91908BD1CF16AEF006FD8D2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F91908BC1CF16AEF006FD8D2 /* AppDelegate.m */; };
+		F91908C01CF16AEF006FD8D2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F91908BF1CF16AEF006FD8D2 /* ViewController.m */; };
+		F91908C31CF16AEF006FD8D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F91908C11CF16AEF006FD8D2 /* Main.storyboard */; };
+		F91908C51CF16AEF006FD8D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F91908C41CF16AEF006FD8D2 /* Assets.xcassets */; };
+		F91908C81CF16AEF006FD8D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F91908C61CF16AEF006FD8D2 /* LaunchScreen.storyboard */; };
+		F91908D31CF16AEF006FD8D2 /* ________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = F91908D21CF16AEF006FD8D2 /* ________Tests.m */; };
+		F91908DE1CF16AEF006FD8D2 /* ________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F91908DD1CF16AEF006FD8D2 /* ________UITests.m */; };
+		F91908F01CF17DBD006FD8D2 /* XWInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = F91908EF1CF17DBD006FD8D2 /* XWInteractiveTransition.m */; };
+		F91908F61CF180A8006FD8D2 /* ShenQiYiDongVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F91908F51CF180A8006FD8D2 /* ShenQiYiDongVC.m */; };
+		F91908F91CF180F4006FD8D2 /* TanXingPoPVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F91908F81CF180F4006FD8D2 /* TanXingPoPVC.m */; };
+		F91908FC1CF18107006FD8D2 /* FanYeXiaoGuoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F91908FB1CF18107006FD8D2 /* FanYeXiaoGuoVC.m */; };
+		F91908FF1CF18126006FD8D2 /* XiaoYuanDianVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F91908FE1CF18126006FD8D2 /* XiaoYuanDianVC.m */; };
+		F91909021CF18148006FD8D2 /* ErJiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F91909011CF18148006FD8D2 /* ErJiViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F91908CF1CF16AEF006FD8D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F91908AD1CF16AEE006FD8D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F91908B41CF16AEF006FD8D2;
+			remoteInfo = "页面跳转过场动画";
+		};
+		F91908DA1CF16AEF006FD8D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F91908AD1CF16AEE006FD8D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F91908B41CF16AEF006FD8D2;
+			remoteInfo = "页面跳转过场动画";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F91908B51CF16AEF006FD8D2 /* 页面跳转过场动画.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "页面跳转过场动画.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F91908B91CF16AEF006FD8D2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F91908BB1CF16AEF006FD8D2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F91908BC1CF16AEF006FD8D2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F91908BE1CF16AEF006FD8D2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F91908BF1CF16AEF006FD8D2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F91908C21CF16AEF006FD8D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F91908C41CF16AEF006FD8D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F91908C71CF16AEF006FD8D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F91908C91CF16AEF006FD8D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F91908CE1CF16AEF006FD8D2 /* 页面跳转过场动画Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "页面跳转过场动画Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F91908D21CF16AEF006FD8D2 /* ________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "________Tests.m"; sourceTree = "<group>"; };
+		F91908D41CF16AEF006FD8D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F91908D91CF16AEF006FD8D2 /* 页面跳转过场动画UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "页面跳转过场动画UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F91908DD1CF16AEF006FD8D2 /* ________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "________UITests.m"; sourceTree = "<group>"; };
+		F91908DF1CF16AEF006FD8D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F91908EE1CF17DBD006FD8D2 /* XWInteractiveTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWInteractiveTransition.h; sourceTree = "<group>"; };
+		F91908EF1CF17DBD006FD8D2 /* XWInteractiveTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWInteractiveTransition.m; sourceTree = "<group>"; };
+		F91908F41CF180A8006FD8D2 /* ShenQiYiDongVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShenQiYiDongVC.h; sourceTree = "<group>"; };
+		F91908F51CF180A8006FD8D2 /* ShenQiYiDongVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShenQiYiDongVC.m; sourceTree = "<group>"; };
+		F91908F71CF180F4006FD8D2 /* TanXingPoPVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TanXingPoPVC.h; sourceTree = "<group>"; };
+		F91908F81CF180F4006FD8D2 /* TanXingPoPVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TanXingPoPVC.m; sourceTree = "<group>"; };
+		F91908FA1CF18107006FD8D2 /* FanYeXiaoGuoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FanYeXiaoGuoVC.h; sourceTree = "<group>"; };
+		F91908FB1CF18107006FD8D2 /* FanYeXiaoGuoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FanYeXiaoGuoVC.m; sourceTree = "<group>"; };
+		F91908FD1CF18126006FD8D2 /* XiaoYuanDianVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XiaoYuanDianVC.h; sourceTree = "<group>"; };
+		F91908FE1CF18126006FD8D2 /* XiaoYuanDianVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XiaoYuanDianVC.m; sourceTree = "<group>"; };
+		F91909001CF18148006FD8D2 /* ErJiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ErJiViewController.h; sourceTree = "<group>"; };
+		F91909011CF18148006FD8D2 /* ErJiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ErJiViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F91908B21CF16AEF006FD8D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F91908CB1CF16AEF006FD8D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F91908D61CF16AEF006FD8D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F91908AC1CF16AEE006FD8D2 = {
+			isa = PBXGroup;
+			children = (
+				F91908B71CF16AEF006FD8D2 /* 页面跳转过场动画 */,
+				F91908D11CF16AEF006FD8D2 /* 页面跳转过场动画Tests */,
+				F91908DC1CF16AEF006FD8D2 /* 页面跳转过场动画UITests */,
+				F91908B61CF16AEF006FD8D2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F91908B61CF16AEF006FD8D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F91908B51CF16AEF006FD8D2 /* 页面跳转过场动画.app */,
+				F91908CE1CF16AEF006FD8D2 /* 页面跳转过场动画Tests.xctest */,
+				F91908D91CF16AEF006FD8D2 /* 页面跳转过场动画UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F91908B71CF16AEF006FD8D2 /* 页面跳转过场动画 */ = {
+			isa = PBXGroup;
+			children = (
+				F91908BB1CF16AEF006FD8D2 /* AppDelegate.h */,
+				F91908BC1CF16AEF006FD8D2 /* AppDelegate.m */,
+				F91908BE1CF16AEF006FD8D2 /* ViewController.h */,
+				F91908BF1CF16AEF006FD8D2 /* ViewController.m */,
+				F91908C11CF16AEF006FD8D2 /* Main.storyboard */,
+				F91908ED1CF17DA6006FD8D2 /* 页面 */,
+				F91908EB1CF16B3A006FD8D2 /* demo */,
+				F91908C41CF16AEF006FD8D2 /* Assets.xcassets */,
+				F91908C61CF16AEF006FD8D2 /* LaunchScreen.storyboard */,
+				F91908C91CF16AEF006FD8D2 /* Info.plist */,
+				F91908B81CF16AEF006FD8D2 /* Supporting Files */,
+			);
+			path = "页面跳转过场动画";
+			sourceTree = "<group>";
+		};
+		F91908B81CF16AEF006FD8D2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F91908B91CF16AEF006FD8D2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F91908D11CF16AEF006FD8D2 /* 页面跳转过场动画Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F91908D21CF16AEF006FD8D2 /* ________Tests.m */,
+				F91908D41CF16AEF006FD8D2 /* Info.plist */,
+			);
+			path = "页面跳转过场动画Tests";
+			sourceTree = "<group>";
+		};
+		F91908DC1CF16AEF006FD8D2 /* 页面跳转过场动画UITests */ = {
+			isa = PBXGroup;
+			children = (
+				F91908DD1CF16AEF006FD8D2 /* ________UITests.m */,
+				F91908DF1CF16AEF006FD8D2 /* Info.plist */,
+			);
+			path = "页面跳转过场动画UITests";
+			sourceTree = "<group>";
+		};
+		F91908EB1CF16B3A006FD8D2 /* demo */ = {
+			isa = PBXGroup;
+			children = (
+				F91908EE1CF17DBD006FD8D2 /* XWInteractiveTransition.h */,
+				F91908EF1CF17DBD006FD8D2 /* XWInteractiveTransition.m */,
+			);
+			path = demo;
+			sourceTree = "<group>";
+		};
+		F91908ED1CF17DA6006FD8D2 /* 页面 */ = {
+			isa = PBXGroup;
+			children = (
+				F91908F41CF180A8006FD8D2 /* ShenQiYiDongVC.h */,
+				F91908F51CF180A8006FD8D2 /* ShenQiYiDongVC.m */,
+				F91908F71CF180F4006FD8D2 /* TanXingPoPVC.h */,
+				F91908F81CF180F4006FD8D2 /* TanXingPoPVC.m */,
+				F91908FA1CF18107006FD8D2 /* FanYeXiaoGuoVC.h */,
+				F91908FB1CF18107006FD8D2 /* FanYeXiaoGuoVC.m */,
+				F91908FD1CF18126006FD8D2 /* XiaoYuanDianVC.h */,
+				F91908FE1CF18126006FD8D2 /* XiaoYuanDianVC.m */,
+				F91909001CF18148006FD8D2 /* ErJiViewController.h */,
+				F91909011CF18148006FD8D2 /* ErJiViewController.m */,
+			);
+			name = "页面";
+			path = "神奇移动";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F91908B41CF16AEF006FD8D2 /* 页面跳转过场动画 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F91908E21CF16AEF006FD8D2 /* Build configuration list for PBXNativeTarget "页面跳转过场动画" */;
+			buildPhases = (
+				F91908B11CF16AEF006FD8D2 /* Sources */,
+				F91908B21CF16AEF006FD8D2 /* Frameworks */,
+				F91908B31CF16AEF006FD8D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "页面跳转过场动画";
+			productName = "页面跳转过场动画";
+			productReference = F91908B51CF16AEF006FD8D2 /* 页面跳转过场动画.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F91908CD1CF16AEF006FD8D2 /* 页面跳转过场动画Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F91908E51CF16AEF006FD8D2 /* Build configuration list for PBXNativeTarget "页面跳转过场动画Tests" */;
+			buildPhases = (
+				F91908CA1CF16AEF006FD8D2 /* Sources */,
+				F91908CB1CF16AEF006FD8D2 /* Frameworks */,
+				F91908CC1CF16AEF006FD8D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F91908D01CF16AEF006FD8D2 /* PBXTargetDependency */,
+			);
+			name = "页面跳转过场动画Tests";
+			productName = "页面跳转过场动画Tests";
+			productReference = F91908CE1CF16AEF006FD8D2 /* 页面跳转过场动画Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F91908D81CF16AEF006FD8D2 /* 页面跳转过场动画UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F91908E81CF16AEF006FD8D2 /* Build configuration list for PBXNativeTarget "页面跳转过场动画UITests" */;
+			buildPhases = (
+				F91908D51CF16AEF006FD8D2 /* Sources */,
+				F91908D61CF16AEF006FD8D2 /* Frameworks */,
+				F91908D71CF16AEF006FD8D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F91908DB1CF16AEF006FD8D2 /* PBXTargetDependency */,
+			);
+			name = "页面跳转过场动画UITests";
+			productName = "页面跳转过场动画UITests";
+			productReference = F91908D91CF16AEF006FD8D2 /* 页面跳转过场动画UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F91908AD1CF16AEE006FD8D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "赵宏亚";
+				TargetAttributes = {
+					F91908B41CF16AEF006FD8D2 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					F91908CD1CF16AEF006FD8D2 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = F91908B41CF16AEF006FD8D2;
+					};
+					F91908D81CF16AEF006FD8D2 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = F91908B41CF16AEF006FD8D2;
+					};
+				};
+			};
+			buildConfigurationList = F91908B01CF16AEE006FD8D2 /* Build configuration list for PBXProject "页面跳转过场动画" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F91908AC1CF16AEE006FD8D2;
+			productRefGroup = F91908B61CF16AEF006FD8D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F91908B41CF16AEF006FD8D2 /* 页面跳转过场动画 */,
+				F91908CD1CF16AEF006FD8D2 /* 页面跳转过场动画Tests */,
+				F91908D81CF16AEF006FD8D2 /* 页面跳转过场动画UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F91908B31CF16AEF006FD8D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F91908C81CF16AEF006FD8D2 /* LaunchScreen.storyboard in Resources */,
+				F91908C51CF16AEF006FD8D2 /* Assets.xcassets in Resources */,
+				F91908C31CF16AEF006FD8D2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F91908CC1CF16AEF006FD8D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F91908D71CF16AEF006FD8D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F91908B11CF16AEF006FD8D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F91908F91CF180F4006FD8D2 /* TanXingPoPVC.m in Sources */,
+				F91908F01CF17DBD006FD8D2 /* XWInteractiveTransition.m in Sources */,
+				F91908F61CF180A8006FD8D2 /* ShenQiYiDongVC.m in Sources */,
+				F91908C01CF16AEF006FD8D2 /* ViewController.m in Sources */,
+				F91908BD1CF16AEF006FD8D2 /* AppDelegate.m in Sources */,
+				F91909021CF18148006FD8D2 /* ErJiViewController.m in Sources */,
+				F91908FC1CF18107006FD8D2 /* FanYeXiaoGuoVC.m in Sources */,
+				F91908FF1CF18126006FD8D2 /* XiaoYuanDianVC.m in Sources */,
+				F91908BA1CF16AEF006FD8D2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F91908CA1CF16AEF006FD8D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F91908D31CF16AEF006FD8D2 /* ________Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F91908D51CF16AEF006FD8D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F91908DE1CF16AEF006FD8D2 /* ________UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F91908D01CF16AEF006FD8D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F91908B41CF16AEF006FD8D2 /* 页面跳转过场动画 */;
+			targetProxy = F91908CF1CF16AEF006FD8D2 /* PBXContainerItemProxy */;
+		};
+		F91908DB1CF16AEF006FD8D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F91908B41CF16AEF006FD8D2 /* 页面跳转过场动画 */;
+			targetProxy = F91908DA1CF16AEF006FD8D2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F91908C11CF16AEF006FD8D2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F91908C21CF16AEF006FD8D2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F91908C61CF16AEF006FD8D2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F91908C71CF16AEF006FD8D2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F91908E01CF16AEF006FD8D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F91908E11CF16AEF006FD8D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F91908E31CF16AEF006FD8D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "页面跳转过场动画/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AnchoriteFiliGod.--------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F91908E41CF16AEF006FD8D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "页面跳转过场动画/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AnchoriteFiliGod.--------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F91908E61CF16AEF006FD8D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "页面跳转过场动画Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AnchoriteFiliGod.--------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/页面跳转过场动画.app/页面跳转过场动画";
+			};
+			name = Debug;
+		};
+		F91908E71CF16AEF006FD8D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "页面跳转过场动画Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AnchoriteFiliGod.--------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/页面跳转过场动画.app/页面跳转过场动画";
+			};
+			name = Release;
+		};
+		F91908E91CF16AEF006FD8D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "页面跳转过场动画UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AnchoriteFiliGod.--------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "页面跳转过场动画";
+			};
+			name = Debug;
+		};
+		F91908EA1CF16AEF006FD8D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "页面跳转过场动画UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AnchoriteFiliGod.--------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "页面跳转过场动画";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F91908B01CF16AEE006FD8D2 /* Build configuration list for PBXProject "页面跳转过场动画" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F91908E01CF16AEF006FD8D2 /* Debug */,
+				F91908E11CF16AEF006FD8D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F91908E21CF16AEF006FD8D2 /* Build configuration list for PBXNativeTarget "页面跳转过场动画" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F91908E31CF16AEF006FD8D2 /* Debug */,
+				F91908E41CF16AEF006FD8D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F91908E51CF16AEF006FD8D2 /* Build configuration list for PBXNativeTarget "页面跳转过场动画Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F91908E61CF16AEF006FD8D2 /* Debug */,
+				F91908E71CF16AEF006FD8D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F91908E81CF16AEF006FD8D2 /* Build configuration list for PBXNativeTarget "页面跳转过场动画UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F91908E91CF16AEF006FD8D2 /* Debug */,
+				F91908EA1CF16AEF006FD8D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F91908AD1CF16AEE006FD8D2 /* Project object */;
+}
